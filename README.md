@@ -4,7 +4,7 @@ This Terraform module creates an API Gateway V2 integration with EventBridge, al
 
 ## Features
 
-- Creates an API Gateway V2 integration with EventBridge
+- Creates an API Gateway V2 integration with EventBridge.
 - Sets up IAM role and policy for API Gateway to publish events to EventBridge
 - Configures API Gateway route with customizable authorization
 - Supports custom event source, detail type, and event bus name

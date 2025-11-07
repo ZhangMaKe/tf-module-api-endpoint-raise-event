@@ -23,6 +23,7 @@ module "api_event_integration" {
   event_detailtype    = "MyCustomEvent"
   event_detail        = "$request.body"
   event_bus_name      = "my-event-bus"
+  event_bus_arn       = "arn:aws:events:eu-west-2:1234567890:event-bus/my-event-bus"
   route_key           = "trigger-event"
   authorisation_type  = "NONE"  # Optional, defaults to "NONE"
 }
@@ -45,6 +46,7 @@ module "api_event_integration" {
 | event_detailtype | The 'DetailType' field for the EventBridge event to trigger | `string` | - | yes |
 | event_detail | The 'EventDetail' field for the EventBridge event to trigger | `string` | "$request.body" | no |
 | event_bus_name | The name of the EventBridge event bus to create the integration with | `string` | - | yes |
+| event_bus_arn | The ARN of the EventBridge event bus to create the integration with | `string` | - | yes |
 | route_key | The route key for the API Gateway route to create to trigger the event | `string` | - | yes |
 | authoriser_id | The ID of the Lambda authorizer to use for the API Gateway route | `string` | `null` | no |
 | authorisation_type | The type of authorization for the API Gateway route (NONE, AWS_IAM, CUSTOM, JWT) | `string` | "NONE" | no |

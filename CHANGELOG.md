@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.0.0...v1.0.1) (2025-11-07)
+
+
+### Bug Fixes
+
+* Added variable for event_bus_arn ([541f08d](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/541f08df347f06784f1710f0fa1f57835b5f9aba))
+
 # 1.0.0 (2025-11-06)
 
 

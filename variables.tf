@@ -34,6 +34,11 @@ variable "event_bus_name" {
     type = string
 }
 
+variable "event_bus_arn" {
+    description = "The ARN of the EventBridge event bus to create the integration with."
+    type = string
+}
+
 variable "route_key" {
   description = "The route key for the API Gateway route to create to trigger the event."
   type = string

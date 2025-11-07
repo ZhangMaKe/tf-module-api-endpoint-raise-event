@@ -8,7 +8,7 @@ module "role_and_policy" {
     {
       name = var.policy_name
       actions = ["events:PutEvents"]
-      resources = [aws_cloudwatch_event_bus.prediction_game.arn]
+      resources = [var.event_bus_arn]
     }
   ]
 }

@@ -29,8 +29,8 @@ variable "event_detail" {
   default = "$request.body"
 }
 
-variable "event_pattern" {
-  description = "The pattern for the 'Detail' field for the EventBridge event to trigger."
+variable "event_detail_schema" {
+  description = "The schema for the 'Detail' field for the EventBridge event to trigger."
   type = any
   default = "{}"
 }

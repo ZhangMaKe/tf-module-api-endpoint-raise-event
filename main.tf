@@ -36,3 +36,15 @@ resource "aws_apigatewayv2_route" "apigw_route" {
   authorizer_id = var.authoriser_id
   authorization_type = var.authorisation_type
 }
+
+#event
+resource "aws_cloudwatch_event_rule" "event_rule" {
+  name = var.event_name
+  event_bus_name = var.event_bus_name
+
+  event_pattern = jsonencode({
+    source = [var.event_source]
+    detail-type = [var.event_detailtype]
+    detail = var.event_pattern
+  })
+}

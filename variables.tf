@@ -29,6 +29,12 @@ variable "event_detail" {
   default = "$request.body"
 }
 
+variable "event_pattern" {
+  description = "The pattern for the 'Detail' field for the EventBridge event to trigger."
+  type = any
+  default = "{}"
+}
+
 variable "event_bus_name" {
     description = "The name of the EventBridge event bus to create the integration with."
     type = string
@@ -58,4 +64,9 @@ variable "authorisation_type" {
     condition     = contains(["NONE", "AWS_IAM", "CUSTOM", "JWT"], var.authorisation_type)
     error_message = "Authorization type must be one of: NONE, AWS_IAM, JWT, or CUSTOM."
   }
+}
+
+variable "event_name" {
+  description = "The name of the EventBridge event to create."
+  type = string
 }

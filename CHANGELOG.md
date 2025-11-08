@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.0.1...v1.1.0) (2025-11-08)
+
+
+### Features
+
+* added event_pattern variable and event_rule resource to allow creation of event ([8a87533](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/8a875330e7c5692f306968e2eee112b90a7ccd67))
+* Merge pull request [#2](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/issues/2) from ZhangMaKe/feature/add-support-for-creating-event ([a25403b](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/a25403b3ac53ef19a7c32a9b5972e05e57312668))
+
 ## [1.0.1](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.0.0...v1.0.1) (2025-11-07)
 
 

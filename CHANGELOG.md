@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.1.0...v1.1.1) (2025-11-08)
+
+
+### Bug Fixes
+
+* Merge pull request [#3](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/issues/3) from ZhangMaKe/fix/rename-event-pattern-var ([8b00855](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/8b00855a6a028fbcb27edd5462126aab774ac1d5))
+
 # [1.1.0](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.0.1...v1.1.0) (2025-11-08)
 
 

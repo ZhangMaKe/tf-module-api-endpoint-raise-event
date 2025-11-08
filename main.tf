@@ -45,6 +45,6 @@ resource "aws_cloudwatch_event_rule" "event_rule" {
   event_pattern = jsonencode({
     source = [var.event_source]
     detail-type = [var.event_detailtype]
-    detail = var.event_pattern
+    detail = var.event_detail_schema
   })
 }

@@ -20,7 +20,7 @@ output "route_id" {
 
 output "event_rule_name" {
     description = "The name of the create EventBridge event rule."
-    value = aws_cloudwatch_event_rule.event_rule.id
+    value = aws_cloudwatch_event_rule.event_rule.name
 }
 
 output "event_rule_arn" {

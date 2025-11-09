@@ -59,6 +59,7 @@ module "api_event_integration" {
 | policy_arns | A list of the IDs of the created IAM policies |
 | integration_id | The value of the created API Gateway V2 integration |
 | route_id | The ID of the created API Gateway V2 route |
+| event_rule_name | The name of the created EventBridge event |
 
 ## Limitations / Additional Information
 

@@ -60,6 +60,7 @@ module "api_event_integration" {
 | integration_id | The value of the created API Gateway V2 integration |
 | route_id | The ID of the created API Gateway V2 route |
 | event_rule_name | The name of the created EventBridge event |
+| event_rule_arn | The ARN of the create EventBridge event |
 
 ## Limitations / Additional Information
 

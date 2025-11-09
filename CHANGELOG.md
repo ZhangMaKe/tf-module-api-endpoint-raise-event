@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.1.1...v1.2.0) (2025-11-09)
+
+
+### Features
+
+* added event_rule_name output ([96cb53f](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/96cb53f77433da4c821a30b662a8d07b79dfd82e))
+
 ## [1.1.1](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.1.0...v1.1.1) (2025-11-08)
 
 

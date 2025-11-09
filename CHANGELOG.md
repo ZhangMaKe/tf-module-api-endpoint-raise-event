@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.2.0...v1.3.0) (2025-11-09)
+
+
+### Features
+
+* Added event_rule_arn output ([a76070d](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/a76070df73021ecdc8826d39a319b0121f63f30c))
+* Merge pull request [#4](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/issues/4) from ZhangMaKe/feat/added_event_rule_arn_output ([4d67d52](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/commit/4d67d52a082c52e8dd87491b89e91c79786e9e42))
+
 # [1.2.0](https://github.com/ZhangMaKe/tf-module-api-endpoint-raise-event/compare/v1.1.1...v1.2.0) (2025-11-09)
 
 
